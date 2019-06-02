@@ -77,7 +77,6 @@ class Block
             strcpy(chash, picosha2::hash256_hex_string(toHash).c_str());
             strcpy(Block::c_hash, chash);
             cout<<"\nBlock Created.\n\nHash Pointer :\t"<<Block::c_hash;
-            cout<<"\nBlock Created.\n\nHash Pointer :\t"<<chash;
             cout<<"\n";
         }
         string putHash()
